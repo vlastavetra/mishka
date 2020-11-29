@@ -1,0 +1,35 @@
+.button {
+  display: block;
+
+  width: 100%;
+
+  padding-top: 12px;
+  padding-bottom: 10px;
+
+  font-family: $font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: $basic_black;
+  background-color: $basic_white;
+
+  border: 2px solid $basic_black;
+
+  &:hover,
+  &:focus {
+    color: $basic_white;
+    background-color: $deep_grey;
+    border: 2px solid $deep_grey;
+  }
+
+  &:active {
+    color: $transparent_white-03;
+    background-color: $deep_grey;
+    border: 2px solid $deep_grey;
+  }
+}

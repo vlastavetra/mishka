@@ -1,0 +1,18 @@
+.wrapper {
+  box-sizing: border-box;
+
+  width: 260px;
+  padding: $padding-h-mobile;
+
+  margin: 0 auto;
+
+  @media (min-width: $tablet) {
+    width: 668px;
+    padding: $padding-h-tablet;
+  }
+
+  @media (min-width: $desktop) {
+    width: 1142px;
+    padding: $padding-h-desktop;
+  }
+}
